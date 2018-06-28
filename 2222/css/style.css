@@ -1,0 +1,119 @@
+ * {margin: 0;padding: 0;}
+body{font-family: "微软雅黑";font-size: 15px;line-height: 1.8;}  
+li {list-style: none;}
+img {border: 0;vertical-align: middle;}
+a {color: #fff; text-decoration: none;}
+a:hover {color: #fcf011;}
+table{ border-collapse:collapse; border-spacing:0;text-align: center;}
+.wrap{margin: 0 auto;width:1000px;}
+.clearfix:after{content:'.';display:block;height:0;clear:both;visibility:hidden}
+.clearfix{*zoom:1}
+.fl{float:left!important}
+.fr{float:right!important}
+
+
+.head{width:100%;padding:12px 0;line-height: 76px;border-bottom: 1px solid #cbcdd1;}
+.nav li{display: inline-block;float: left;margin-left: 56px;}
+.nav li a{color: #fb7502;}
+.content{
+	position: relative;
+	width: 100%;
+	height: 1746px;
+	background: url(../images/bg.jpg) no-repeat center center;
+}
+.content .time{
+	margin: 0 auto;
+	padding:336px 0 0;
+	width: 633px;
+	height: 53px;
+	text-align: center;
+	line-height: 53px;
+	font-size: 36px;
+	font-weight: 600;
+	color: #fff;
+	background: url(../images/time-bg.png) no-repeat bottom center;
+}
+.content .time i{
+	text-shadow:2px 2px 6px #000;
+}
+.content .article{
+	text-align: center;
+}
+.content .article .row{
+	margin:370px auto 0;
+	width: 900px;
+	text-align: left;
+	padding: 40px 30px;
+	background:#376a01;
+	border: 1px solid #63a403;
+	border-radius:10px;
+	box-shadow: 0 0 2px 0 #000 inset;
+}
+.content .article .row p{
+	color: #fff;
+	font-size: 16px;
+}
+.content .article .row p:nth-child(2){
+	font-size: 18px;
+	color: #ffd101;
+}
+.content .article .article-text .title{
+	margin:30px auto 30px;
+	padding: 10px 0;
+	width: 288px;
+	color: #753303;
+	font-size: 30px;
+	background: #ffd101;
+	border-bottom: 4px solid #cb7b05;
+}
+.content .article .article-text h2{
+	color: #fff;
+	font-size: 24px;
+}
+.content .article .article-text .activity-cnt{
+	display: block;
+	margin:30px auto 0;
+	width: 900px;
+	padding:30px 30px;
+	background:#376a01;
+	border: 1px solid #63a403;
+	border-radius:10px;
+	box-shadow: 0 0 2px 0 #000 inset;
+}
+.content .article .article-text .activity-cnt tr{
+	color: #fff;
+	border: 1px solid #498c02;
+}
+.content .article .article-text .activity-cnt td{
+	border: 1px solid #498c02;
+}
+.content .article .article-text .activity-rules{
+	margin:0px auto 0;
+	width: 900px;
+	text-align: left;
+	padding:30px 30px;
+	background:#376a01;
+	border: 1px solid #63a403;
+	border-radius:10px;
+	box-shadow: 0 0 2px 0 #000 inset;
+}
+.content .article .article-text .activity-rules p{
+	white-space: nowrap;
+	font-size: 16px;
+	color: #fff;
+}
+.content .article .article-text .activity-rules p:last-child{
+	color: #ffd101;
+	text-indent:1.5rem;
+}
+.foot{
+	position: absolute;
+	bottom: 0;
+	z-index: 33;
+	padding: 30px 0;
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	background: rgba(0,0,0,.5);
+}
